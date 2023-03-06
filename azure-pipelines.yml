@@ -6,6 +6,9 @@
 trigger:
 - master
 
+resources:
+ repositories:
+   - 'git@github.com:manish0053/FlightTool2021.git'
 pool:
   vmImage: ubuntu-latest
 
